@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Rubik', sans-serif;
+}
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.7rem 1rem 0.7rem 1rem;
+	color: #fff;
+	background: rgb(12,97,87);
+	background: linear-gradient(147deg, rgba(12,97,87,1) 12%, rgba(7,94,84,1) 81%);
+}
+
+header .logo h1{
+	font-size: 1.2em;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.9);
+}
+
+header .menu ul{
+	display: flex;
+	align-items: center;
+}
+
+header .menu ul li{
+	list-style-type: none;
+	margin-left: 20px;
+}
+
+header .menu ul li i{
+	font-size: 1em;	
+}
+
+a{
+	text-decoration: none;
+}
+
+nav{
+	color: rgba(255, 255, 255, 0.9);
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+	background: rgb(12,97,87);
+	background: linear-gradient(147deg, rgba(12,97,87,1) 12%, rgba(7,94,84,1) 81%);
+}
+
+nav ul{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0.5rem;
+}
+
+nav ul li{
+	list-style-type: none;
+}
+
+nav ul li a{
+	font-size: 1em;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 0.8);
+}
+nav ul li i{
+	font-size: 1.4em;
+}
+
+nav ul li a span{
+	color: ;
+}
+
+.acitve a{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.active{
+	position: relative;
+	top: 7.7px;
+	height: 3px;
+	width: 100px;
+	background-color: #f5f5f5;
+}
+
+section .card{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+	padding: 0.5rem;
+	margin-top: 10px;
+}
+
+section .card .photo img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+section .text h1{
+	font-weight: 600;
+	font-size: 1.3em;
+}
+
+section .text h5{
+	margin-top: 10px;
+	font-weight: 400;
+	font-size: 0.9em;
+}
